@@ -15,11 +15,9 @@
     "@mikro-orm/core": "6.4.3",
     "@mikro-orm/migrations": "6.4.3",
     "@mikro-orm/postgresql": "6.4.3",
-    "@medusajs/framework": "2.6.1",
     "wrangler": "^3.109.2"
   },
   "peerDependencies": {
-    "@medusajs/framework": "2.6.1",
     "@mikro-orm/core": "6.4.3",
     "@mikro-orm/migrations": "6.4.3",
     "@mikro-orm/postgresql": "6.4.3",

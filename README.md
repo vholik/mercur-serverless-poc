@@ -1,5 +1,3 @@
-Create depop similar marketplace using serverless environment
-
 Medusa modules:
 
 - Product

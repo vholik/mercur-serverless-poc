@@ -1,0 +1,594 @@
+{
+  "attributes": [
+    {
+      "attributeId": 20,
+      "propertyId": 47626759760,
+      "isRequired": false,
+      "maximumValuesAllowed": 5,
+      "displayName": "R\u0119kodzie\u0142o",
+      "novaArticles": [],
+      "supportsVariations": false,
+      "uiComponent": "multivalue",
+      "scales": [],
+      "ottValueQualifier": null,
+      "possibleValues": {
+        "529": "Druk 3D",
+        "597": "Wyr\u00f3b ozd\u00f3b z\u00a0koralik\u00f3w",
+        "534": "Kaligrafia",
+        "539": "Rze\u017abiarstwo i\u00a0struganie",
+        "540": "Ceramika i\u00a0garncarstwo",
+        "541": "Kola\u017c",
+        "596": "Kolorowanie",
+        "542": "Haft prz\u0119dz\u0105 czesankow\u0105",
+        "543": "Szyde\u0142kowanie",
+        "544": "Haft krzy\u017cykowy",
+        "548": "Rysowanie i szkicowanie",
+        "532": "Farbowanie i batik",
+        "550": "Haft",
+        "551": "Emalierstwo",
+        "2281": "Grawerstwo",
+        "553": "Filcowanie",
+        "556": "Ramiarstwo",
+        "557": "Dmuchanie szk\u0142a",
+        "558": "Stapianie szk\u0142a",
+        "562": "R\u0119kodzie\u0142o dzieci\u0119ce",
+        "563": "Robienie na drutach",
+        "564": "Wyr\u00f3b i\u00a0kszta\u0142towanie lamp",
+        "565": "Kaletnictwo",
+        "566": "Makrama",
+        "567": "Marmurkowanie",
+        "568": "Obr\u00f3bka metali",
+        "570": "Modelunek i\u00a0odlewnictwo",
+        "571": "Tworzenie mozaik",
+        "573": "Haft gobelinowy",
+        "574": "Sztuka neonowa",
+        "575": "Origami",
+        "576": "Malarstwo",
+        "580": "Quilling",
+        "1221": "Stemplowanie papieru",
+        "578": "Fotografia",
+        "1238": "Haft na kanwie plastikowej",
+        "579": "Drukarstwo i\u00a0grafika",
+        "581": "Patchwork i\u00a0pikowanie",
+        "583": "Wyr\u00f3b dywan\u00f3w",
+        "2280": "Rze\u017aba",
+        "743": "Krawiectwo",
+        "588": "Prz\u0119dzalnictwo",
+        "589": "Witra\u017ce",
+        "590": "Koronkarstwo",
+        "593": "Tkactwo i\u00a0gobeliniarstwo",
+        "595": "Stolarstwo i\u00a0ciesielstwo"
+      },
+      "possibleValuesOrder": [
+        529, 597, 534, 539, 540, 541, 596, 542, 543, 544, 548, 532, 550, 551,
+        2281, 553, 556, 557, 558, 562, 563, 564, 565, 566, 567, 568, 570, 571,
+        573, 574, 575, 576, 580, 1221, 578, 1238, 579, 581, 583, 2280, 743, 588,
+        589, 590, 593, 595
+      ],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 2,
+      "propertyId": 200,
+      "isRequired": false,
+      "maximumValuesAllowed": 5,
+      "displayName": "Kolor podstawowy",
+      "novaArticles": [
+        {
+          "articleId": 593229853402,
+          "language": "pl",
+          "content": "<p>Atrybuty koloru podstawowego i\u00a0dodatkowego mo\u017cna zamienia\u0107, tak by pokaza\u0107 kupuj\u0105cym, \u017ce produkt jest wielokolorowy. Pomi\u0144 kolor dodatkowy, je\u015bli produkt jest jednokolorowy.</p>",
+          "publishDate": 1568059066,
+          "shortcut": "mott_nova_widgets.primary_color_attribute",
+          "rawContent": "Atrybuty koloru podstawowego i\u00a0dodatkowego mo\u017cna zamienia\u0107, tak by pokaza\u0107 kupuj\u0105cym, \u017ce produkt jest wielokolorowy. Pomi\u0144 kolor dodatkowy, je\u015bli produkt jest jednokolorowy.\n\n"
+        }
+      ],
+      "supportsVariations": true,
+      "uiComponent": "typeahead",
+      "scales": [],
+      "ottValueQualifier": null,
+      "possibleValues": {
+        "1213": "Be\u017c",
+        "1": "Czarny",
+        "2": "Niebieski",
+        "1216": "Br\u0105z",
+        "3": "Br\u0105zowy",
+        "1219": "Przezroczysty",
+        "1218": "Mied\u017a",
+        "1214": "Z\u0142oto",
+        "5": "Szary",
+        "4": "Zielony",
+        "6": "Pomara\u0144czowy",
+        "7": "R\u00f3\u017cowy",
+        "8": "Purpurowy",
+        "1220": "T\u0119cza",
+        "9": "Czerwony",
+        "1217": "R\u00f3\u017cowe z\u0142oto",
+        "1215": "Srebro",
+        "10": "Bia\u0142y",
+        "11": "\u017b\u00f3\u0142ty"
+      },
+      "possibleValuesOrder": [
+        1213, 1, 2, 1216, 3, 1219, 1218, 1214, 5, 4, 6, 7, 8, 1220, 9, 1217,
+        1215, 10, 11
+      ],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 271,
+      "propertyId": 52047899002,
+      "isRequired": false,
+      "maximumValuesAllowed": 5,
+      "displayName": "Kolor dodatkowy",
+      "novaArticles": [],
+      "supportsVariations": true,
+      "uiComponent": "typeahead",
+      "scales": [],
+      "ottValueQualifier": null,
+      "possibleValues": {
+        "1213": "Be\u017c",
+        "1": "Czarny",
+        "2": "Niebieski",
+        "1216": "Br\u0105z",
+        "3": "Br\u0105zowy",
+        "1219": "Przezroczysty",
+        "1218": "Mied\u017a",
+        "1214": "Z\u0142oto",
+        "5": "Szary",
+        "4": "Zielony",
+        "6": "Pomara\u0144czowy",
+        "7": "R\u00f3\u017cowy",
+        "8": "Purpurowy",
+        "1220": "T\u0119cza",
+        "9": "Czerwony",
+        "1217": "R\u00f3\u017cowe z\u0142oto",
+        "1215": "Srebro",
+        "10": "Bia\u0142y",
+        "11": "\u017b\u00f3\u0142ty"
+      },
+      "possibleValuesOrder": [
+        1213, 1, 2, 1216, 3, 1219, 1218, 1214, 5, 4, 6, 7, 8, 1220, 9, 1217,
+        1215, 10, 11
+      ],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 68,
+      "propertyId": 47626759898,
+      "isRequired": false,
+      "maximumValuesAllowed": null,
+      "displayName": "Szeroko\u015b\u0107",
+      "novaArticles": [],
+      "supportsVariations": true,
+      "uiComponent": "unit",
+      "scales": [
+        {
+          "id": 5,
+          "buyerShortName": "Cale"
+        },
+        {
+          "id": 7,
+          "buyerShortName": "Centymetry"
+        },
+        {
+          "id": 9,
+          "buyerShortName": "Jardy"
+        },
+        {
+          "id": 10,
+          "buyerShortName": "Metry"
+        },
+        {
+          "id": 4,
+          "buyerShortName": "Milimetry"
+        },
+        {
+          "id": 11,
+          "buyerShortName": "Stopy"
+        }
+      ],
+      "ottValueQualifier": null,
+      "possibleValues": [],
+      "possibleValuesOrder": [],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 54,
+      "propertyId": 47626759834,
+      "isRequired": false,
+      "maximumValuesAllowed": 5,
+      "displayName": "Wysoko\u015b\u0107",
+      "novaArticles": [],
+      "supportsVariations": true,
+      "uiComponent": "unit",
+      "scales": [
+        {
+          "id": 5,
+          "buyerShortName": "Cale"
+        },
+        {
+          "id": 7,
+          "buyerShortName": "Centymetry"
+        },
+        {
+          "id": 9,
+          "buyerShortName": "Jardy"
+        },
+        {
+          "id": 10,
+          "buyerShortName": "Metry"
+        },
+        {
+          "id": 4,
+          "buyerShortName": "Milimetry"
+        },
+        {
+          "id": 11,
+          "buyerShortName": "Stopy"
+        }
+      ],
+      "ottValueQualifier": null,
+      "possibleValues": [],
+      "possibleValuesOrder": [],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 291,
+      "propertyId": 54142602037,
+      "isRequired": false,
+      "maximumValuesAllowed": 5,
+      "displayName": "G\u0142\u0119boko\u015b\u0107",
+      "novaArticles": [],
+      "supportsVariations": true,
+      "uiComponent": "unit",
+      "scales": [
+        {
+          "id": 5,
+          "buyerShortName": "Cale"
+        },
+        {
+          "id": 7,
+          "buyerShortName": "Centymetry"
+        },
+        {
+          "id": 9,
+          "buyerShortName": "Jardy"
+        },
+        {
+          "id": 10,
+          "buyerShortName": "Metry"
+        },
+        {
+          "id": 4,
+          "buyerShortName": "Milimetry"
+        },
+        {
+          "id": 11,
+          "buyerShortName": "Stopy"
+        }
+      ],
+      "ottValueQualifier": null,
+      "possibleValues": [],
+      "possibleValuesOrder": [],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 739,
+      "propertyId": 570246213604,
+      "isRequired": false,
+      "maximumValuesAllowed": 2,
+      "displayName": "Przyjazne \u015brodowisku",
+      "novaArticles": [
+        {
+          "articleId": 1101106658165,
+          "language": "pl",
+          "content": "<p>Je\u015bli Tw\u00f3j produkt jest wykonany z\u00a0wykorzystaniem ekologicznych materia\u0142\u00f3w lub metod, poinformuj o\u00a0tym kupuj\u0105cych. Wybieraj\u0105c atrybut, potwierdzasz, \u017ce ten produkt spe\u0142nia kryteria, o\u00a0kt\u00f3rych mowa <a href=\"https://www.etsy.com/seller-handbook/article/1101070151405\">tutaj</a>.\n<em>Ta informacja nie b\u0119dzie jeszcze widoczna dla kupuj\u0105cych, ale je\u015bli dodasz szczeg\u00f3\u0142y, mog\u0105 one zosta\u0107 udost\u0119pnione kupuj\u0105cym w\u00a0przysz\u0142o\u015bci.</em></p>",
+          "publishDate": 1663344111,
+          "shortcut": "mott_nova_widgets.sustainability_attribute",
+          "rawContent": "Je\u015bli Tw\u00f3j produkt jest wykonany z\u00a0wykorzystaniem ekologicznych materia\u0142\u00f3w lub metod, poinformuj o\u00a0tym kupuj\u0105cych. Wybieraj\u0105c atrybut, potwierdzasz, \u017ce ten produkt spe\u0142nia kryteria, o\u00a0kt\u00f3rych mowa tutaj (https://www.etsy.com/seller-handbook/article/1101070151405). Ta informacja nie b\u0119dzie jeszcze widoczna dla kupuj\u0105cych, ale je\u015bli dodasz szczeg\u00f3\u0142y, mog\u0105 one zosta\u0107 udost\u0119pnione kupuj\u0105cym w\u00a0przysz\u0142o\u015bci.\n\n"
+        }
+      ],
+      "supportsVariations": false,
+      "uiComponent": "multivalue",
+      "scales": [],
+      "ottValueQualifier": null,
+      "possibleValues": {
+        "5010": "Drewno z certyfikatem FSC",
+        "144": "Konopie",
+        "162": "P\u0142\u00f3tno",
+        "5009": "Bawe\u0142na organiczna",
+        "5016": "Szk\u0142o z recyklingu",
+        "5019": "Metal z recyklingu",
+        "5022": "Papier z\u00a0recyklingu",
+        "5021": "Plastik z recyklingu",
+        "5005": "Z upcyklingu"
+      },
+      "possibleValuesOrder": [
+        5010, 144, 162, 5009, 5016, 5019, 5022, 5021, 5005
+      ],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 356,
+      "propertyId": 145330288652,
+      "isRequired": false,
+      "maximumValuesAllowed": 5,
+      "displayName": "Styl",
+      "novaArticles": [],
+      "supportsVariations": false,
+      "uiComponent": "typeahead",
+      "scales": [],
+      "ottValueQualifier": null,
+      "possibleValues": {
+        "2382": "Art d\u00e9co",
+        "2384": "Artystyczny i eklektyczny",
+        "2385": "Morski i tropikalny",
+        "2387": "Wsp\u00f3\u0142czesny",
+        "2388": "Wiejski",
+        "2409": "Gotyckie",
+        "2391": "Styl domku letniskowego",
+        "2392": "Z po\u0142owy wieku",
+        "2393": "Minimalizm",
+        "2395": "Rustykalny i prosty",
+        "2399": "Wiktoria\u0144ski"
+      },
+      "possibleValuesOrder": [
+        2382, 2384, 2385, 2387, 2388, 2409, 2391, 2392, 2393, 2395, 2399
+      ],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 3,
+      "propertyId": 46803063641,
+      "isRequired": false,
+      "maximumValuesAllowed": 5,
+      "displayName": "Okazja",
+      "novaArticles": [
+        {
+          "articleId": 608532396989,
+          "language": "pl",
+          "content": "<p>Dodaj ten atrybut do ofert utworzonych specjalnie z\u00a0my\u015bl\u0105 o\u00a0jakiej\u015b okazji (na przyk\u0142ad dekoracje na imprezy z\u00a0okazji wr\u0119czenia dyplom\u00f3w), a\u00a0nie do ofert produkt\u00f3w, kt\u00f3re mog\u0105 by\u0107 prezentem z\u00a0jakiej\u015b okazji. Mo\u017cesz pomin\u0105\u0107 ten atrybut, je\u015bli nie jest odpowiedni.</p>",
+          "publishDate": 1568058999,
+          "shortcut": "mott_nova_widgets.occasion_attribute",
+          "rawContent": "Dodaj ten atrybut do ofert utworzonych specjalnie z\u00a0my\u015bl\u0105 o\u00a0jakiej\u015b okazji (na przyk\u0142ad dekoracje na imprezy z\u00a0okazji wr\u0119czenia dyplom\u00f3w), a\u00a0nie do ofert produkt\u00f3w, kt\u00f3re mog\u0105 by\u0107 prezentem z\u00a0jakiej\u015b okazji. Mo\u017cesz pomin\u0105\u0107 ten atrybut, je\u015bli nie jest odpowiedni.\n\n"
+        }
+      ],
+      "supportsVariations": false,
+      "uiComponent": "typeahead",
+      "scales": [],
+      "ottValueQualifier": null,
+      "possibleValues": {
+        "2773": "Roczek",
+        "12": "Rocznica",
+        "13": "Bociankowe",
+        "14": "Wiecz\u00f3r kawalerski",
+        "15": "Wiecz\u00f3r panie\u0144ski",
+        "16": "Powr\u00f3t do szko\u0142y",
+        "17": "Chrzciny",
+        "18": "Bar i\u00a0bat micwa",
+        "19": "Urodziny",
+        "20": "Bridal shower",
+        "21": "Konfirmacja i\u00a0bierzmowanie",
+        "26": "Rozw\u00f3d i rozpad zwi\u0105zku",
+        "22": "Zar\u0119czyny",
+        "23": "Pierwsza komunia",
+        "24": "Uko\u0144czenie szko\u0142y",
+        "25": "\u017ba\u0142oba",
+        "27": "Parapet\u00f3wka",
+        "2774": "Duma LGBTQ",
+        "50": "Przeprowadzka",
+        "28": "Strata zwierz\u0119cia domowego",
+        "29": "Bal szkolny",
+        "30": "Quincea\u00f1era i Sweet 16",
+        "31": "Przej\u015bcie na emerytur\u0119",
+        "32": "\u015alub i wesele"
+      },
+      "possibleValuesOrder": [
+        2773, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 26, 22, 23, 24, 25, 27,
+        2774, 50, 28, 29, 30, 31, 32
+      ],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 4,
+      "propertyId": 46803063659,
+      "isRequired": false,
+      "maximumValuesAllowed": 5,
+      "displayName": "\u015awi\u0119to",
+      "novaArticles": [
+        {
+          "articleId": 608525811685,
+          "language": "pl",
+          "content": "<p>Dodaj ten atrybut do ofert utworzonych specjalnie z\u00a0my\u015bl\u0105 o\u00a0jakim\u015b \u015bwi\u0119cie (na przyk\u0142ad kartka na Dzie\u0144 Matki), a\u00a0nie do ofert produkt\u00f3w, kt\u00f3re mog\u0105 by\u0107 prezentem z\u00a0okazji jakiego\u015b \u015bwi\u0119ta. Mo\u017cesz pomin\u0105\u0107 ten atrybut, je\u015bli nie jest odpowiedni.</p>",
+          "publishDate": 1568058927,
+          "shortcut": "mott_nova_widgets.holiday_attribute",
+          "rawContent": "Dodaj ten atrybut do ofert utworzonych specjalnie z\u00a0my\u015bl\u0105 o\u00a0jakim\u015b \u015bwi\u0119cie (na przyk\u0142ad kartka na Dzie\u0144 Matki), a\u00a0nie do ofert produkt\u00f3w, kt\u00f3re mog\u0105 by\u0107 prezentem z\u00a0okazji jakiego\u015b \u015bwi\u0119ta. Mo\u017cesz pomin\u0105\u0107 ten atrybut, je\u015bli nie jest odpowiedni.\n\n"
+        }
+      ],
+      "supportsVariations": false,
+      "uiComponent": "typeahead",
+      "scales": [],
+      "ottValueQualifier": null,
+      "possibleValues": {
+        "35": "Bo\u017ce Narodzenie",
+        "36": "Cinco de Mayo",
+        "5126": "Dia de los Muertos",
+        "4562": "Diwali",
+        "37": "Wielkanoc",
+        "4564": "Eid",
+        "38": "Dzie\u0144 Ojca",
+        "39": "Halloween",
+        "40": "Chanuka",
+        "4563": "Holi",
+        "41": "Dzie\u0144 Niepodleg\u0142o\u015bci",
+        "42": "Kwanzaa",
+        "34": "Chi\u0144ski Nowy Rok",
+        "5118": "Mardi Gras",
+        "43": "Dzie\u0144 Matki",
+        "44": "Nowy Rok",
+        "47": "Pascha",
+        "5128": "Ramadan",
+        "45": "Dzie\u0144 \u015bw. Patryka",
+        "46": "\u015awi\u0119to Dzi\u0119kczynienia",
+        "48": "Walentynki",
+        "49": "Dzie\u0144 Weterana"
+      },
+      "possibleValuesOrder": [
+        35, 36, 5126, 4562, 37, 4564, 38, 39, 40, 4563, 41, 42, 34, 5118, 43,
+        44, 47, 5128, 45, 46, 48, 49
+      ],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    },
+    {
+      "attributeId": 349,
+      "propertyId": 145330288592,
+      "isRequired": false,
+      "maximumValuesAllowed": 5,
+      "displayName": "Pomieszczenie",
+      "novaArticles": [
+        {
+          "articleId": 557867680007,
+          "language": "pl",
+          "content": "<p>Dodanie w\u0142a\u015bciwych pomieszcze\u0144 pomo\u017ce klientom znale\u017a\u0107 Twoje produkty. Je\u015bli jakie\u015b pomieszczenie pasuje do Twojego produktu, dodaj je tutaj; je\u015bli nie, pomi\u0144 ten krok.</p>",
+          "publishDate": 1563302874,
+          "shortcut": "mott_nova_widgets.room_attribute",
+          "rawContent": "Dodanie w\u0142a\u015bciwych pomieszcze\u0144 pomo\u017ce klientom znale\u017a\u0107 Twoje produkty. Je\u015bli jakie\u015b pomieszczenie pasuje do Twojego produktu, dodaj je tutaj; je\u015bli nie, pomi\u0144 ten krok.\n\n"
+        }
+      ],
+      "supportsVariations": false,
+      "uiComponent": "multivalue",
+      "scales": [],
+      "ottValueQualifier": null,
+      "possibleValues": {
+        "4424": "Bar",
+        "2356": "\u0141azienka",
+        "2354": "Sypialnia",
+        "2360": "Pracownia",
+        "3946": "Pok\u00f3j sypialny",
+        "2353": "Przedpok\u00f3j",
+        "3947": "Pok\u00f3j gier",
+        "2361": "Gara\u017c",
+        "2357": "Dzieci",
+        "2350": "Kuchnia i\u00a0jadalnia",
+        "2359": "Pralnia",
+        "2351": "Salon",
+        "4425": "M\u0119ska jaskinia",
+        "2358": "Pok\u00f3j dzieci\u0119cy",
+        "2352": "Biuro",
+        "2355": "Na patio i na zewn\u0105trz",
+        "4426": "Weranda"
+      },
+      "possibleValuesOrder": [
+        4424, 2356, 2354, 2360, 3946, 2353, 3947, 2361, 2357, 2350, 2359, 2351,
+        4425, 2358, 2352, 2355, 4426
+      ],
+      "preselectedValues": [],
+      "scalesToValues": [],
+      "values": []
+    }
+  ],
+  "attributesValidation": [
+    {
+      "propertyId": 47626759760,
+      "displayName": "R\u0119kodzie\u0142o",
+      "maximumValuesAllowed": 5,
+      "uiComponent": "multivalue",
+      "requiresValues": false
+    },
+    {
+      "propertyId": 200,
+      "displayName": "Kolor podstawowy",
+      "maximumValuesAllowed": 5,
+      "uiComponent": "typeahead",
+      "requiresValues": false,
+      "valueType": "string"
+    },
+    {
+      "propertyId": 52047899002,
+      "displayName": "Kolor dodatkowy",
+      "maximumValuesAllowed": 5,
+      "uiComponent": "typeahead",
+      "requiresValues": false,
+      "valueType": "string"
+    },
+    {
+      "propertyId": 47626759898,
+      "displayName": "Szeroko\u015b\u0107",
+      "maximumValuesAllowed": null,
+      "uiComponent": "unit",
+      "requiresValues": false,
+      "valueType": "measurement"
+    },
+    {
+      "propertyId": 47626759834,
+      "displayName": "Wysoko\u015b\u0107",
+      "maximumValuesAllowed": 5,
+      "uiComponent": "unit",
+      "requiresValues": false,
+      "valueType": "measurement"
+    },
+    {
+      "propertyId": 54142602037,
+      "displayName": "G\u0142\u0119boko\u015b\u0107",
+      "maximumValuesAllowed": 5,
+      "uiComponent": "unit",
+      "requiresValues": false,
+      "valueType": "measurement"
+    },
+    {
+      "propertyId": 570246213604,
+      "displayName": "Przyjazne \u015brodowisku",
+      "maximumValuesAllowed": 2,
+      "uiComponent": "multivalue",
+      "requiresValues": false
+    },
+    {
+      "propertyId": 145330288652,
+      "displayName": "Styl",
+      "maximumValuesAllowed": 5,
+      "uiComponent": "typeahead",
+      "requiresValues": false
+    },
+    {
+      "propertyId": 46803063641,
+      "displayName": "Okazja",
+      "maximumValuesAllowed": 5,
+      "uiComponent": "typeahead",
+      "requiresValues": false
+    },
+    {
+      "propertyId": 46803063659,
+      "displayName": "\u015awi\u0119to",
+      "maximumValuesAllowed": 5,
+      "uiComponent": "typeahead",
+      "requiresValues": false
+    },
+    {
+      "propertyId": 145330288592,
+      "displayName": "Pomieszczenie",
+      "maximumValuesAllowed": 5,
+      "uiComponent": "multivalue",
+      "requiresValues": false
+    }
+  ]
+}

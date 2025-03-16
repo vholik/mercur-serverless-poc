@@ -5,10 +5,24 @@
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
+    "@medusajs/product": "^2.6.1",
+    "awilix": "^8.0.1",
     "hono": "^4.7.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250214.0",
+    "@mikro-orm/cli": "6.4.3",
+    "@mikro-orm/core": "6.4.3",
+    "@mikro-orm/migrations": "6.4.3",
+    "@mikro-orm/postgresql": "6.4.3",
+    "@medusajs/framework": "2.6.1",
     "wrangler": "^3.109.2"
+  },
+  "peerDependencies": {
+    "@medusajs/framework": "2.6.1",
+    "@mikro-orm/core": "6.4.3",
+    "@mikro-orm/migrations": "6.4.3",
+    "@mikro-orm/postgresql": "6.4.3",
+    "awilix": "^8.0.1"
   }
 }

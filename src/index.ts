@@ -1,9 +1,19 @@
-import { Hono } from 'hono'
+import { Hono } from "hono";
+import { createContainer } from "awilix";
+import ProductService from "@medusajs/product";
+import { MikroORM } from "@mikro-orm/core";
+import { PostgreSqlDriver } from "@mikro-orm/postgresql";
 
-const app = new Hono()
+type ContainerKeys = "product" | "cart" | "order" | "pricing" | "store";
 
-app.get('/', (c) => {
-  return c.text('Hello Hono!')
-})
+console.log(ProductService);
 
-export default app
+const container = createContainer();
+
+const app = new Hono();
+
+app.get("/", async (c) => {
+  return c.text("Hello World");
+});
+
+export default app;
